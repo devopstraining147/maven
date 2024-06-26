@@ -2,7 +2,7 @@ node
 {
   stage('ContinuousDownload') 
   {
-    git 'https://github.com/devopstraining147/pipeline.git'
+    git 'https://github.com/devopstraining147/maven.git'
   } 
   stage('ContinuousBuild') 
   {
