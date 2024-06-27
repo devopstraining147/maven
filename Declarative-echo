@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Downloading the code') {
             steps {
-                echo 'Downloading the code ......'
+                echo 'Downloading the code ...'
             }
         }
         stage('Build') {
